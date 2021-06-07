@@ -1,0 +1,41 @@
+ .container{
+	 
+	border: 3px solid #F4F6F7;
+	display: flex; 
+	flex-direction: row;
+	 justify-content: center;  align-items: center; height: 90vh; 
+
+}
+.box{
+	width: 25rem;
+	height: 25rem;
+	background: #EAECEE; 
+	margin: 1rem; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+img{
+	height: 15rem;
+} 
+.pr{
+	  position:relative;
+}
+.percentage{
+	 position:absolute;
+	 bottom:0px;
+  right:0px; 
+  color: red;
+  padding: 2px;
+  margin: 2px;
+}
+.courseName{
+	padding: 5px;
+	
+} 
+/*media Query*/
+/*@media (max-width: 450px) {
+	.container{
+		width: 100%;
+	}
+}*/
